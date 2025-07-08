@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./client",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": ["client/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

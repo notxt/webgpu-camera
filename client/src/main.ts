@@ -57,7 +57,7 @@ async function main(): Promise<void> {
       alphaMode: 'opaque'
     });
 
-    const shaderCode = await loadShader('/shaders/quad.wgsl');
+    const shaderCode = await loadShader('/shader/quad.wgsl');
     const shaderModule = device.createShaderModule({
       label: 'Quad shaders',
       code: shaderCode
